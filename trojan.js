@@ -5,7 +5,7 @@ let subPath = 'link';     // 节点订阅路径,不修改将使用/sub/${UUID}�
 let proxyIP = '13.230.34.30';  // proxyIP
 let yourUUID = 'b4577c91-a0e3-4881-937f-1eb93cc8e0bc'; // UUID
 
-let cfip = [ 'mfa.gov.ua#SG','saas.sin.fan#HK','store.ubi.com#JP','cf.130519.xyz#KR','cf.008500.xyz#HK','cf.090227.xyz#SG','cf.877774.xyz#HK','cdns.doon.eu.org#JP','sub.danfeng.eu.org#TW','cf.zhetengsha.eu.org#HK'];
+let cfip = [ '162.159.142.252#JP','saas.sin.fan#HK','store.ubi.com#JP','cf.130519.xyz#KR','cf.008500.xyz#HK','cf.090227.xyz#SG','cf.877774.xyz#HK','cdns.doon.eu.org#JP','sub.danfeng.eu.org#TW','cf.zhetengsha.eu.org#HK'];
 
 function closeSocketQuietly(socket) { 
     try { if (socket.readyState === WebSocket.OPEN || socket.readyState === WebSocket.CLOSING) { socket.close(); }
